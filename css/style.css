@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-top: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.results-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.polling-center-results,
+.district-coalition-results {
+    width: 45%;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.error-messages {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
